@@ -363,8 +363,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[ربات خود را بسازید](https://telegram.me/parsaalemi"
-sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
+local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\nخوش اومدی این ربات برنامه نویسی شده تا با @parsaalemi گفت و گو کنی \n\nپیامت رو بفرست" sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
  	local user = ""
