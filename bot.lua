@@ -7,7 +7,7 @@ HTTPS = require('ssl.https')
 dofile('utilities.lua')
 ----config----
 local bot_api_key = "185089768:AAF3Co_2mUUgLW2v7uZmZL3RABZFqIoCIVk" --BOT TOKEN تو کن ربات خود را در اینجا قرار دهید
-local You = 105831687  --ID ADMIN ایدی خود را اینجا قرار دهید
+local You = 105831687,123627901,134461890
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]]
