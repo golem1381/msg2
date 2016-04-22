@@ -38,8 +38,8 @@ M.KH @cruel0098
 	
 	بعد از اینکار در سرور مراحل زیر را انجام دهید
 	
-	git clone https://github.com/mohamadkhoshnava/idbot.git
-	بجای ادرس گیت بنده ادرس گیت خود را وارد کنید
+	git clone https://github.com//.git
+	بجای ادرس گیت بنده ادرس گیت  را وارد کنید
 	
 	lua bot.lua
 	
