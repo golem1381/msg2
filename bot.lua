@@ -33,7 +33,7 @@ local help = [[
 `/id` ✴️
 ایدی
 ➖➖➖➖➖➖➖➖➖➖➖
-Sudo : @mohammadarak
+Sudo : @parsaalemi
 ]]--
 -------
 
