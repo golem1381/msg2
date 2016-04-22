@@ -329,7 +329,7 @@ msg.from.username = '@'..msg.from.username
 elseif msg.from.username == nil then
 msg.from.username = "you don't have"
 end
-local caption = 'your nam :- '..msg.from.first_name..'\nyour id :-'..msg.from.id..'\nyour username :- '..msg.from.username
+local caption = 'your name:- '..msg.from.first_name..'\nyour id :-'..msg.from.id..'\nyour username :- '..msg.from.username
 
 	sendPhotoID(msg.chat.id,file,caption)
 elseif msg.text:match('/id (.*)$') then
@@ -363,7 +363,7 @@ user = bot.username
 else
 user = msg.from.username
 end
-local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[ربات خود را بسازید](http://opizo.com/3AGyRT)"
+local text = "سلام ["..msg.from.first_name.."](www.telegram.me/"..user..")\n\n[ربات خود را بسازید](https://telegram.me/parsaalemi"
 sendMessage(msg.chat.id,text.."\n"..start,true,false,true)
 elseif msg.text == "/start" and is_add(msg) then
  	print(#add.id)
