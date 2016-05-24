@@ -6,8 +6,8 @@ JSON = require('dkjson')
 HTTPS = require('ssl.https')
 dofile('utilities.lua')
 ----config----
-local bot_api_key = "219097637:AAFT1h5G6s7V3IwrBMVRLDJXtkfrzZHZA-4" --BOT TOKEN تو کن ربات خود را در اینجا قرار دهید
-local You = 209854761
+local bot_api_key = "224244426:AAFQOCWRgJCEWgg49O6uB7nqIYNdQQdmVjY" --BOT TOKEN تو کن ربات خود را در اینجا قرار دهید
+local You = 105831687
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[ ]]
